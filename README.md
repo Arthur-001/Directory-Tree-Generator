@@ -4,9 +4,9 @@
 [![License](https://img.shields.io/badge/license-Apache2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.13.2-blue)](https://www.python.org/)
 
-A cross-platform tool that generates visual directory structures with customizable filters, exclusions, and export options.
+A cross-platform tool that generates visual directory structures with customizable filters, exclusions, and export options. Usefule for directory mapping for large scale projects.
 
-![Screenshot](docs/andsfs.png) <!-- Add a screenshot in /docs folder -->
+![Screenshot](docs/andsfs.png)
 
 ## ✨ Features
 
@@ -20,8 +20,27 @@ A cross-platform tool that generates visual directory structures with customizab
 - **Cross-Platform**: Windows, macOS, and Linux support
 
 
-## Future Works
+## 🚀Future Works
 - **Dark/Light Mode**: Adapts to system preferences
+
+
+## 🛠 Development
+- **Requirements**
+  - Python 3.8+ (3.13.2 is used here)
+  - PySide6
+
+**Setup**
+```bash
+git clone https://github.com/Arthur-001/Directory-Tree-Generator.git
+cd Directory-Tree-Generator
+pip install -r requirements.txt
+```
+
+**build**
+```bash
+pyinstaller build.spec
+```
+
 
 ## 📥 Installation
 
