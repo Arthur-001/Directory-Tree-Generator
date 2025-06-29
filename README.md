@@ -18,6 +18,9 @@ A cross-platform tool that generates visual directory structures with customizab
   - Text-based tree diagrams
   - Export to `.txt` files
 - **Cross-Platform**: Windows, macOS, and Linux support
+
+
+## Future Works
 - **Dark/Light Mode**: Adapts to system preferences
 
 ## 📥 Installation
