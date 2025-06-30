@@ -1,6 +1,6 @@
 # 🌳 Directory Tree Generator
 
-[![GitHub Release](https://img.shields.io/github/v/release/Arthur-001/Directory-Tree-Generator?include_prereleases)](https://github.com/Arthur-001/Directory-Tree-Generator/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/Arthur-001/Directory-Tree-Generator)](https://github.com/Arthur-001/Directory-Tree-Generator/releases/)
 [![License](https://img.shields.io/badge/license-Apache2.0-blue.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.13.2-blue)](https://www.python.org/)
 
