@@ -45,5 +45,5 @@ pyinstaller build.spec
 ## 📥 Installation
 
 ### Windows
-1. Download the latest `.exe` from [Releases](https://github.com/yourusername/directory-tree-generator/releases)
+1. Download the latest `.exe` from [Releases](https://github.com/Arthur-001/Directory-Tree-Generator/releases)
 2. Run the installer or portable executable
