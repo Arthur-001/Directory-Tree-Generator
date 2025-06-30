@@ -20,6 +20,7 @@ a = Analysis(
     win_private_assemblies=False,
     cipher=block_cipher,
     noarchive=False,
+    icon='resources/icons/app_icon.ico',
 )
 pyz = PYZ(a.pure, a.zipped_data, cipher=block_cipher)
 

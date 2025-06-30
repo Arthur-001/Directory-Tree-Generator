@@ -18,6 +18,12 @@ class MainWindow(QMainWindow):
         super().__init__()
         self.setWindowTitle("Directory Tree Generator")
         self.setGeometry(100, 100, 1000, 700)
+        
+        # Set window icon
+        icon_path = os.path.join(os.path.dirname(__file__), '..', 'resources', 'icons', 'app_icon.ico')
+        if os.path.exists(icon_path):
+            self.setWindowIcon(QIcon(icon_path))
+        
         # Set up the menu bar
         self.menuBar = create_menu_bar(self)
         self.setMenuBar(self.menuBar)
